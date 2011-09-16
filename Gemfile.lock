@@ -64,6 +64,7 @@ GEM
       nokogiri (>= 1.4.6)
     database_cleaner (0.6.7)
     diff-lcs (1.1.2)
+    dynamic_form (1.1.4)
     erubis (2.7.0)
     execjs (1.2.6)
       multi_json (~> 1.0)
@@ -165,6 +166,7 @@ DEPENDENCIES
   css-bootstrap-rails
   cucumber-rails
   database_cleaner
+  dynamic_form
   haml
   jquery-rails
   rails (= 3.1.0)
