@@ -21,6 +21,8 @@ gem 'jquery-rails'
 gem 'css-bootstrap-rails'
 gem 'haml'
 
+gem 'devise', '~> 1.4.3'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
