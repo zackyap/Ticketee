@@ -1,0 +1,23 @@
+.span8
+  %h2 Sign up
+  %br
+  = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
+    = devise_error_messages!
+
+    %div.clearfix
+      = f.label :email
+      = f.email_field :email
+
+    %div.clearfix
+      = f.label :password
+      = f.password_field :password
+
+    %div.clearfix
+      = f.label :password_confirmation
+      = f.password_field :password_confirmation
+
+    %div.clearfix
+      = f.submit "Sign up", :class => "btn primary pull-right sign-up"
+
+
+  = render :partial => "devise/shared/links"

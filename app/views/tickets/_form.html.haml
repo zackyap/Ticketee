@@ -1,9 +1,9 @@
 = form_for [@project, @ticket] do |f|
 	= f.error_messages
-	%p
+	#ticket_title
 		= f.label :title
 		= f.text_field :title
-	%p
+	#ticket_description
 		= f.label :description
 		= f.text_area :description
 
